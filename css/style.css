@@ -33,3 +33,20 @@ a{
     max-width:1270px;
     margin:0 auto;
 }
+
+.col{
+    width:33.33%;
+    float:left;
+}
+
+figure{
+    margin:15px 7px;
+}
+
+img{
+    width:100%;
+    height:auto;
+    border-radius: 8px;;
+}
+
+
