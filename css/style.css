@@ -82,3 +82,15 @@ footer a{
 a:hover{
     text-decoration:underline;
 }
+
+
+@media (max-width:800px){
+    .col{
+        width:100%;
+        float:none;
+    }
+
+    img{
+        border-radius:16px;
+    }
+}
