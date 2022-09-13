@@ -41,12 +41,33 @@ a{
 
 figure{
     margin:15px 7px;
+    transition:all 400ms ease-in;
 }
 
 img{
     width:100%;
     height:auto;
     border-radius: 8px;;
+    transition:all 300ms ease-in-out;
 }
 
+main::after{
+    content:"";
+    display:table;
+    clear:both;
+}
 
+footer{
+    text-align:center;
+    padding:15px 25px;
+    background:#1B3C74;
+    color:#fff;
+}
+
+footer a{
+    color:#fff;
+}
+
+a:hover{
+    text-decoration:underline;
+}
